@@ -3,7 +3,7 @@
 
 \LoadClass[12pt]{article}
 \typeout{Loading ANL technical report class: includes [12pt]{article}}
-\typeout{written by Paul K. Romano (MCS)}
+\typeout{written by Paul K. Romano (CPS)}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Packages needed
@@ -52,8 +52,8 @@
     5301 Shawnee Rd\\
     Alexandria, VA 22312\\
     {\bfseries www.ntis.gov}\\
-    Phone: (800) 553-NTIS (6847) or (703)\\
-    605-6000 Fax: (703) 605-6900\\
+    Phone: (800) 553-NTIS (6847) or (703) 605-6000\\
+    Fax: (703) 605-6900\\
     Email: {\bfseries orders@ntis.gov}}\\[2ex]
   {\footnotesize \bfseries
     Reports not in digital format are available to DOE and DOE contractors from the\\
