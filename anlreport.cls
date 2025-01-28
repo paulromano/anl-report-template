@@ -11,12 +11,13 @@
 
 \RequirePackage{graphicx}
 \RequirePackage[margin=1in]{geometry}
+\RequirePackage{etoolbox}
 
 \newcommand{\reportNumber}[1]{\gdef\@reportNumber{#1}}
 \newcommand{\division}[1]{\gdef\@division{#1}}
 \newcommand{\building}[1]{\gdef\@building{#1}}
 
-\AtBeginDocument{
+\AfterEndPreamble{
   \noindent
   \begin{flushleft}
   \raisebox{-.5\height}{\includegraphics[width=5.5cm]{images/argonne.pdf}}
@@ -86,7 +87,6 @@
   \end{flushleft}
   \thispagestyle{empty}
   \newpage
-
   \pagenumbering{arabic}
 }
 
